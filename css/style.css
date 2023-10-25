@@ -1,0 +1,152 @@
+
+
+@font-face{
+    font-family: Awesome;
+    src: url(../fonts/Awesome\ Free\ Font.otf);
+}
+
+@font-face{
+    font-family: Brogte;
+    src: url(../fonts/Brogte.otf);
+}
+
+@font-face{
+    font-family: Vampire;
+    src: url(../fonts/Vampire\ Wars.otf)
+}
+
+*{
+    margin: 0; padding: 0;
+}
+html{
+    background: #000;
+}
+
+body{
+    width: 750px; 
+    height: 1000px;
+    margin: auto; 
+    background: #42e5a4;
+}
+
+section#banner{
+    width: 250px; height: 250px;
+    background-color: #4a0000;
+    font-family: Awesome;
+    float: left;
+}
+
+section#logo{
+    width: 250px; height:250px;
+    background-color: #a08383;
+    font-family: Brogte;
+    float: left;
+}
+
+section#login{
+    width: 250px; height: 250px;
+    background-color: #dd2c2c;
+    font-family: Vampire;
+    float: left;
+}
+
+.caja{
+    position: relative;
+    display: inline-block;
+}
+
+#uno{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    background: #780e0e;
+    color: #000;
+}
+
+#dos{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    background-color: #724b4b;
+    color: white;
+}
+
+#tres{
+    position: absolute;
+    top: 20px;
+    left: 5%;
+    background: #34b9ee;
+    color: #4a0000;
+
+}
+
+nav{
+    width: 750px; height: 250px;
+    background: #01338a;
+    font-family: Vampire;
+    color: yellow;
+    font-size: 20px;
+}
+
+section#inicio{
+    width: 250px; height: 250px;
+    background-color: #5b0544;
+    float: left;
+}
+section#producto{
+    width: 250px; height: 250px;
+    background-color: #34b9ee;
+    float: left;
+}
+section#contacto{
+    width: 250px; height: 250px;
+    background-color: #f15151;
+    float: right; 
+}
+
+main{
+    width: 750px; height: 250px;
+    font-family: brogte;
+    color: aliceblue;
+    font-size: 20px;
+}
+aside#hoy{
+    width: 250px; height: 250px;
+    background-color: #01338a;
+    float: left;
+}
+article#novedades{
+    width: 250px; height: 250px;
+    background-color: #000000;
+    float: left;
+}
+
+aside#internacional{
+    width: 250px; height: 250px;
+    background-color: rgb(55, 112, 162);
+    float: right;
+}
+footer{
+    width: 750px; height: 250px;
+    font-size: 20px;
+    background: #d0fa00;
+    color: #000000;
+    font-family: Awesome;
+}
+
+aside#creditos{
+    width: 250px; height: 250px;
+    background-color: #bb1ac6;
+    float: left;
+}
+article#lugar{
+    width: 250px; height: 250px;
+    background-color: #3c1b1b;
+    float: left;
+}
+
+aside#correo{
+    width: 250px; height: 250px;
+    background-color: rgb(8, 228, 0);
+    float: right;
+}
